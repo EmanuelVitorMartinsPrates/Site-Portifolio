@@ -201,7 +201,7 @@ outline: 2px solid var(--cor-terciaria)
 }
 
 /* RESPONSIVIDADE */
-@media (max-width: 1200px) {
+@media (max-width: 1560px) {
     .cabecalho {
         padding: 10%;
     }
@@ -213,12 +213,12 @@ outline: 2px solid var(--cor-terciaria)
     .apresentacao {
         flex-direction: column-reverse;
         justify-content: center;
-        padding: 5% 0 10% 30%;
+        align-items: center;
+        padding: 5% 5%;
     }
 
     .apresentacao__conteudo {
         width: auto;
-        justify-content: center;
 
     }
 
@@ -230,7 +230,7 @@ outline: 2px solid var(--cor-terciaria)
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1080px) {
     .cabecalho {
         padding: 0;
         text-align: center;
